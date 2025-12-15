@@ -1,0 +1,23 @@
+#fastapi
+#uvicorn[standard]
+#pydantic
+#requests
+#streamlit
+#sentence-transformers
+#faiss-cpu
+#numpy
+
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+boto3>=1.34.0
+faiss-cpu>=1.7.0
+numpy>=1.24.0
+pandas>=2.0.0
+python-multipart>=0.0.6
+
+config
+rag
+
+#python -m src.fastapi_app
+#streamlit run src/ui_streamlit.py
